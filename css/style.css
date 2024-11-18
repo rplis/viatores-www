@@ -238,9 +238,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 2px 0;
   display: block;
   color: #999999;
-  line-height: 1.2;
+  line-height: 1.4;
   text-transform: none;
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0;
 }
 .fh5co-nav ul li.has-dropdown .dropdown li a:hover {
@@ -952,6 +952,7 @@ input[type="text"] {
 }
 #fh5co-offcanvas a {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
 }
 #fh5co-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -961,7 +962,7 @@ input[type="text"] {
   margin: 0;
 }
 #fh5co-offcanvas ul li {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   list-style: none;
 }
@@ -982,7 +983,7 @@ input[type="text"] {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: 1.2;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
