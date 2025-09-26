@@ -1349,3 +1349,35 @@ input[type="text"] {
   max-height: 100px;
   width: auto;
 }
+
+/* ---- Custom readability tweaks for Kurs Alpha and long-form content ---- */
+.content-readable {
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.9);
+}
+@media screen and (min-width: 992px) {
+  .content-readable {
+    font-size: 19px;
+  }
+}
+.content-readable p {
+  margin-bottom: 1.2em;
+}
+.content-readable h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.alpha-quote {
+  font-style: italic;
+  border-left: 4px solid #1B3764;
+  padding-left: 15px;
+  margin: 1em 0 1.2em 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Make hero CTA text a bit larger when using btn-lg */
+#fh5co-hero .flexslider .slider-text > .slider-text-inner .btn.btn-lg {
+  font-size: 16px;
+}
