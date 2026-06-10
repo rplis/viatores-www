@@ -56,38 +56,6 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<style>
-	#fh5co-hero.smw-home-hero {
-		height: auto;
-		background: #f8f6f2;
-	}
-	#fh5co-hero.smw-home-hero .flexslider {
-		margin-bottom: 0;
-		background: transparent;
-		border: none;
-		box-shadow: none;
-		border-radius: 0;
-	}
-	#fh5co-hero.smw-home-hero .flexslider .slides > li.smw-home-hero-slide {
-		height: auto;
-		min-height: 0;
-		background: none !important;
-		padding: 1rem 0;
-	}
-	#fh5co-hero.smw-home-hero .smw-home-hero-link {
-		display: block;
-		max-width: min(100%, 1024px);
-		margin: 0 auto;
-	}
-	#fh5co-hero.smw-home-hero .smw-home-hero-link img {
-		display: block;
-		width: 100%;
-		max-width: 1024px;
-		height: auto;
-		margin: 0 auto;
-	}
-	</style>
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -124,7 +92,7 @@
 									<li><a href="about.html">O Nas</a></li>
 									<li><a href="regula.html">Reguła</a></li>
 									<li><a href="kurs-alpha.html">Kurs Alpha</a></li>
-									<li><a href="smw/">SMW</a></li>
+									<li class="hidden"><a href="smw/">SMW</a></li>
 									<li><a href="contact.html">Kontakt</a></li>
 								</ul>
 							</div>
@@ -135,16 +103,25 @@
 		</div>
 	</nav>
 	<div class="container-wrap">
-		<aside id="fh5co-hero" class="smw-home-hero">
+		<aside id="fh5co-hero">
 			<div class="flexslider">
 				<ul class="slides">
-					<li class="smw-home-hero-slide">
-						<a href="smw/" class="smw-home-hero-link">
-							<img src="images/zapisy-szkola-modlitwy-banner.png" width="1024" height="409" alt="V Szkoła Modlitwy Wstawienniczej — przejdź do strony SMW">
-						</a>
-					</li>
-				</ul>
-			</div>
+	   	<li style="background-image: url('images/background.png');">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-md-offset-3 text-center">
+								<div class="slider-text">
+					   				<div class="slider-text-inner">
+					   					<h1>Wyrusz z nami w drogę do Boga</h1>
+					   				</div>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			   	</ul>
+		  	</div>
 		</aside>
 		<hr>
 		<div id="fh5co-events">
@@ -165,16 +142,6 @@
 						<span class="date">18:40 - Indywidualna posługa modlitwą wstawienniczą</span><br>
 
 						<span class="date">Po zakończeniu zapraszamy do kawiarenki na wspólną herbatę i ciastko.</span>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 animate-box">
-					<div class="events-entry">
-						<span class="date">30 maja 2026</span>
-						<h3><a href="smw/">V Szkoła Modlitwy Wstawienniczej</a></h3>
-						<p>Całodniowy kurs modlitwy wstawienniczej dla osób formujących się we wspólnotach: konferencje, warsztaty, wspólna modlitwa i praca w małych grupach.</p>
-						<p><a href="smw/">Szczegóły i zapisy</a></p>
 					</div>
 				</div>
 			</div>
